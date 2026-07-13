@@ -1,0 +1,103 @@
+# ─────────────────────────────────────────────────────────────────────────────
+# SMP Baseline Configuration
+# All magic values live here — no column names or codes in module logic.
+# ─────────────────────────────────────────────────────────────────────────────
+
+# ── Column names in the ODiN trip-level CSV ──────────────────────────────────
+columns:
+  person_id:           "Person_index"
+  group_key:           "group_key"
+  day_of_week:         "Weekday reporting"
+  day_type:            "DayType"
+  departure_hour:      "Departure time transfer"
+  departure_min_disp:  "Departure minute displacement"
+  arrival_hour:        "Arrival time transfer"
+  arrival_min_disp:    "Arrival minute displacement"
+  activity_duration:   "Activity duration (in minutes)"
+  travel_duration:     "Travel time in the Netherlands (in minutes)"
+  motive:              "Motive"
+  destination_purpose: "Destination/Purpose"
+  distance_hm:         "Travel distance in the Netherlands (in hectometers)"
+  distance_class:      "Travel distance class in the Netherlands"
+  mode:                "Main mode of transport travel"
+  province:            "Departure province"
+
+# ── Purpose state mapping (ODiN Motive label → SMP internal state) ───────────
+purpose_map:
+  "To and from work":                       "WORK"
+  "Taking education/course":                "EDUCATION"
+  "Shopping/grocery shopping":              "SHOPPING"
+  "Collect/deliver goods":                  "COLLECT_DELIVER"
+  "Services/personal care":                 "SERVICES"
+  "Pick up/drop off people":                "PICKUP_DROPOFF"
+  "Professionally":                         "BUSINESS"
+  "Business visit in a working atmosphere": "BUSINESS"
+  "Other leisure activities":               "LEISURE_OTHER"
+  "Sports/hobbies":                         "SPORTS"
+  "Visitors/staying over":                  "VISITING"
+  "Touring/hiking":                         "TOURING"
+  "Different motive":                       "DIFFERENT_MOTIVE"
+
+# ── Reverse map: SMP internal state → ODiN Motive label (simulator output) ───
+# Must match the LLM's purpose strings so DARD comparison is cross-model valid.
+state_to_odin_label:
+  "WORK":             "To and from work"
+  "EDUCATION":        "Taking education/course"
+  "SHOPPING":         "Shopping/grocery shopping"
+  "COLLECT_DELIVER":  "Collect/deliver goods"
+  "SERVICES":         "Services/personal care"
+  "PICKUP_DROPOFF":   "Pick up/drop off people"
+  "BUSINESS":         "Business visit in a working atmosphere"
+  "LEISURE_OTHER":    "Other leisure activities"
+  "SPORTS":           "Sports/hobbies"
+  "VISITING":         "Visitors/staying over"
+  "TOURING":          "Touring/hiking"
+  "DIFFERENT_MOTIVE": "Different motive"
+
+# ── All states (HOME is synthetic, not in ODiN Motive column) ────────────────
+states:
+  - "HOME"
+  - "WORK"
+  - "EDUCATION"
+  - "SHOPPING"
+  - "COLLECT_DELIVER"
+  - "SERVICES"
+  - "PICKUP_DROPOFF"
+  - "BUSINESS"
+  - "LEISURE_OTHER"
+  - "SPORTS"
+  - "VISITING"
+  - "TOURING"
+  - "DIFFERENT_MOTIVE"
+
+# ── HOME detection: value in destination_purpose column that means "home" ─────
+home_destination_value: "Home"
+
+# ── Province configuration ───────────────────────────────────────────────────
+provinces:
+  holdout: ["Utrecht", "Friesland"]
+  exclude: ["No starting point in the Netherlands", "Unknown"]
+
+# ── Router: time bin edges (minutes from midnight), producing 5 bins ─────────
+# Bins: [night/early 0-360], [morning 360-540], [midday 540-960],
+#       [afternoon 960-1140], [evening 1140-1440]
+router_bin_edges: [0, 360, 540, 960, 1140, 1440]
+
+# ── Laplace smoothing epsilon for router transition matrices ──────────────────
+laplace_epsilon: 0.1
+
+# ── Minimum observations in a (state, persona) cell for cell-level fit ────────
+# Falls back to persona-level distribution if below this threshold.
+min_obs_cell: 30
+
+# ── Day length in minutes ─────────────────────────────────────────────────────
+day_length_min: 1440
+
+# ── Tolerance (minutes) for timeline consistency check ───────────────────────
+timeline_tolerance_min: 30
+
+# ── Evaluation: SD bin edges (km) — aligned to ODiN distance class boundaries ─
+sd_bins: [0, 0.5, 1.0, 2.5, 3.7, 5.0, 7.5, 10, 15, 20, 30, 40, 50, 75, 100, 250]
+
+# ── Evaluation: SI bin edges (minutes between consecutive trip departures) ────
+si_bins: [0, 10, 20, 30, 45, 60, 90, 120, 180, 240, 360, 480, 720, 1440]

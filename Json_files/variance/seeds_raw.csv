@@ -1,0 +1,161 @@
+model,label,metric,value,seed
+SynTrav,Llama 3.3-70B,SD,0.03028804354188978,3
+SynTrav,Llama 3.3-70B,SI,0.031620294916680315,3
+SynTrav,Llama 3.3-70B,DARD,0.38943505176520604,3
+SynTrav,Llama 3.3-70B,DailyLoc,0.03887177655755681,3
+SynTrav,Llama 3.3-70B,SD,0.017807798627273923,7
+SynTrav,Llama 3.3-70B,SI,0.02802009894521902,7
+SynTrav,Llama 3.3-70B,DARD,0.38450928841125054,7
+SynTrav,Llama 3.3-70B,DailyLoc,0.052501458748630735,7
+SynTrav,Llama 3.3-70B,SD,0.021310696625189737,13
+SynTrav,Llama 3.3-70B,SI,0.02653492402516487,13
+SynTrav,Llama 3.3-70B,DARD,0.3747664838556001,13
+SynTrav,Llama 3.3-70B,DailyLoc,0.03998728797619471,13
+SynTrav,Llama 3.3-70B,SD,0.024130417025465097,27
+SynTrav,Llama 3.3-70B,SI,0.02023175971144709,27
+SynTrav,Llama 3.3-70B,DARD,0.38209129354158516,27
+SynTrav,Llama 3.3-70B,DailyLoc,0.040415712599466955,27
+SynTrav,Llama 3.3-70B,SD,0.01993041075983822,42
+SynTrav,Llama 3.3-70B,SI,0.02313167376169226,42
+SynTrav,Llama 3.3-70B,DARD,0.38443881831194965,42
+SynTrav,Llama 3.3-70B,DailyLoc,0.03852999576625322,42
+SynTrav,GPT-4o-mini,SD,0.028150625566749927,3
+SynTrav,GPT-4o-mini,SI,0.013888709120564672,3
+SynTrav,GPT-4o-mini,DARD,0.36841335151456245,3
+SynTrav,GPT-4o-mini,DailyLoc,0.05609173860180381,3
+SynTrav,GPT-4o-mini,SD,0.01944193649278599,7
+SynTrav,GPT-4o-mini,SI,0.017612366443714056,7
+SynTrav,GPT-4o-mini,DARD,0.3625115690437039,7
+SynTrav,GPT-4o-mini,DailyLoc,0.04499916499163106,7
+SynTrav,GPT-4o-mini,SD,0.01626038738969474,13
+SynTrav,GPT-4o-mini,SI,0.018993596236758694,13
+SynTrav,GPT-4o-mini,DARD,0.38981434838141543,13
+SynTrav,GPT-4o-mini,DailyLoc,0.043898537492866,13
+SynTrav,GPT-4o-mini,SD,0.019516849710840667,27
+SynTrav,GPT-4o-mini,SI,0.015248774728324185,27
+SynTrav,GPT-4o-mini,DARD,0.36548302745415073,27
+SynTrav,GPT-4o-mini,DailyLoc,0.03872484075339287,27
+SynTrav,GPT-4o-mini,SD,0.017060781605936402,42
+SynTrav,GPT-4o-mini,SI,0.019189094375893966,42
+SynTrav,GPT-4o-mini,DARD,0.36354348488048643,42
+SynTrav,GPT-4o-mini,DailyLoc,0.05051168231289083,42
+SynTrav,Claude Haiku,SD,0.020465857388027486,3
+SynTrav,Claude Haiku,SI,0.02812380267986036,3
+SynTrav,Claude Haiku,DARD,0.38555262781789273,3
+SynTrav,Claude Haiku,DailyLoc,0.06423373668583103,3
+SynTrav,Claude Haiku,SD,0.02313874339602484,7
+SynTrav,Claude Haiku,SI,0.02468576763789261,7
+SynTrav,Claude Haiku,DARD,0.41062720826508137,7
+SynTrav,Claude Haiku,DailyLoc,0.05517617687337051,7
+SynTrav,Claude Haiku,SD,0.018864724777732735,13
+SynTrav,Claude Haiku,SI,0.03110026715649518,13
+SynTrav,Claude Haiku,DARD,0.4025960541547836,13
+SynTrav,Claude Haiku,DailyLoc,0.05761315819156964,13
+SynTrav,Claude Haiku,SD,0.019495193490304777,27
+SynTrav,Claude Haiku,SI,0.02911250480593232,27
+SynTrav,Claude Haiku,DARD,0.4120987794510533,27
+SynTrav,Claude Haiku,DailyLoc,0.05233396565435657,27
+SynTrav,Claude Haiku,SD,0.018537349338767883,42
+SynTrav,Claude Haiku,SI,0.024922180646430068,42
+SynTrav,Claude Haiku,DARD,0.39697256462532354,42
+SynTrav,Claude Haiku,DailyLoc,0.048880876545018645,42
+SynTrav,w/o daily plan,SD,0.01993170184963256,3
+SynTrav,w/o daily plan,SI,0.12190214779580771,3
+SynTrav,w/o daily plan,DARD,0.5109345674878815,3
+SynTrav,w/o daily plan,DailyLoc,0.02487316948618597,3
+SynTrav,w/o daily plan,SD,0.015159976148544602,7
+SynTrav,w/o daily plan,SI,0.13941785627970923,7
+SynTrav,w/o daily plan,DARD,0.5186156744557735,7
+SynTrav,w/o daily plan,DailyLoc,0.029148394076098993,7
+SynTrav,w/o daily plan,SD,0.01691804419361696,13
+SynTrav,w/o daily plan,SI,0.1408421143948839,13
+SynTrav,w/o daily plan,DARD,0.5342783364494246,13
+SynTrav,w/o daily plan,DailyLoc,0.03479966892533583,13
+SynTrav,w/o daily plan,SD,0.013988865836795579,27
+SynTrav,w/o daily plan,SI,0.14003204868174984,27
+SynTrav,w/o daily plan,DARD,0.494281859906933,27
+SynTrav,w/o daily plan,DailyLoc,0.036825290147949115,27
+SynTrav,w/o daily plan,SD,0.01700999089629238,42
+SynTrav,w/o daily plan,SI,0.11526222785282057,42
+SynTrav,w/o daily plan,DARD,0.5043260466604595,42
+SynTrav,w/o daily plan,DailyLoc,0.02610415026450788,42
+SynTrav,w/o persona + pattern,SD,0.02391008941758237,3
+SynTrav,w/o persona + pattern,SI,0.10861778185084865,3
+SynTrav,w/o persona + pattern,DARD,0.5812514288963299,3
+SynTrav,w/o persona + pattern,DailyLoc,0.10005204888550086,3
+SynTrav,w/o persona + pattern,SD,0.02738363325499602,7
+SynTrav,w/o persona + pattern,SI,0.10860610269128929,7
+SynTrav,w/o persona + pattern,DARD,0.589096956250251,7
+SynTrav,w/o persona + pattern,DailyLoc,0.09784636352653965,7
+SynTrav,w/o persona + pattern,SD,0.015232985088789711,13
+SynTrav,w/o persona + pattern,SI,0.12037468401355705,13
+SynTrav,w/o persona + pattern,DARD,0.5935489647048152,13
+SynTrav,w/o persona + pattern,DailyLoc,0.10186316708165556,13
+SynTrav,w/o persona + pattern,SD,0.026887925349799544,27
+SynTrav,w/o persona + pattern,SI,0.12067946086045246,27
+SynTrav,w/o persona + pattern,DARD,0.598180707291877,27
+SynTrav,w/o persona + pattern,DailyLoc,0.09313188271263129,27
+SynTrav,w/o persona + pattern,SD,0.02080542979526435,42
+SynTrav,w/o persona + pattern,SI,0.10927885073105241,42
+SynTrav,w/o persona + pattern,DARD,0.5851885491445167,42
+SynTrav,w/o persona + pattern,DailyLoc,0.10023463313272056,42
+SynTrav,with distance reasoning,SD,0.20507494855914224,3
+SynTrav,with distance reasoning,SI,0.028388522650640766,3
+SynTrav,with distance reasoning,DARD,0.37207680629334006,3
+SynTrav,with distance reasoning,DailyLoc,0.04835350438748897,3
+SynTrav,with distance reasoning,SD,0.20416218261946814,7
+SynTrav,with distance reasoning,SI,0.02148413687441344,7
+SynTrav,with distance reasoning,DARD,0.3780662791451391,7
+SynTrav,with distance reasoning,DailyLoc,0.04094468328183619,7
+SynTrav,with distance reasoning,SD,0.21678373152916147,13
+SynTrav,with distance reasoning,SI,0.023183820899700683,13
+SynTrav,with distance reasoning,DARD,0.3721477516894624,13
+SynTrav,with distance reasoning,DailyLoc,0.04667353951600345,13
+SynTrav,with distance reasoning,SD,0.2024902751944749,27
+SynTrav,with distance reasoning,SI,0.022755939170661644,27
+SynTrav,with distance reasoning,DARD,0.3703555636954533,27
+SynTrav,with distance reasoning,DailyLoc,0.04158815319574666,27
+SynTrav,with distance reasoning,SD,0.19535841223128025,42
+SynTrav,with distance reasoning,SI,0.02589752736701598,42
+SynTrav,with distance reasoning,DARD,0.3759400272527361,42
+SynTrav,with distance reasoning,DailyLoc,0.039378201855208066,42
+SynTrav,with mode reasoning,SD,0.0032206828769009706,3
+SynTrav,with mode reasoning,SI,0.02795407354280543,3
+SynTrav,with mode reasoning,DARD,0.37478129797997384,3
+SynTrav,with mode reasoning,DailyLoc,0.04373312336571726,3
+SynTrav,with mode reasoning,SD,0.0031903251186843986,7
+SynTrav,with mode reasoning,SI,0.028669933008752358,7
+SynTrav,with mode reasoning,DARD,0.3766283419458957,7
+SynTrav,with mode reasoning,DailyLoc,0.040220429810412,7
+SynTrav,with mode reasoning,SD,0.0041943887669698655,13
+SynTrav,with mode reasoning,SI,0.023590151726496176,13
+SynTrav,with mode reasoning,DARD,0.3648083713089073,13
+SynTrav,with mode reasoning,DailyLoc,0.037565020490222714,13
+SynTrav,with mode reasoning,SD,0.0020901231058360007,27
+SynTrav,with mode reasoning,SI,0.019667517876572643,27
+SynTrav,with mode reasoning,DARD,0.3817519987672953,27
+SynTrav,with mode reasoning,DailyLoc,0.043621285474499734,27
+SynTrav,with mode reasoning,SD,0.0018928668363398116,42
+SynTrav,with mode reasoning,SI,0.032366204966432215,42
+SynTrav,with mode reasoning,DARD,0.3702323613552777,42
+SynTrav,with mode reasoning,DailyLoc,0.04839469321020176,42
+SynTrav,with mode + distance reasoning,SD,0.1732557872150622,3
+SynTrav,with mode + distance reasoning,SI,0.02352039082599038,3
+SynTrav,with mode + distance reasoning,DARD,0.3696963515776885,3
+SynTrav,with mode + distance reasoning,DailyLoc,0.05767329333208344,3
+SynTrav,with mode + distance reasoning,SD,0.16548384977182665,7
+SynTrav,with mode + distance reasoning,SI,0.029386152938937652,7
+SynTrav,with mode + distance reasoning,DARD,0.37370369236505063,7
+SynTrav,with mode + distance reasoning,DailyLoc,0.0498438867391856,7
+SynTrav,with mode + distance reasoning,SD,0.1735953097761468,13
+SynTrav,with mode + distance reasoning,SI,0.031362834787397396,13
+SynTrav,with mode + distance reasoning,DARD,0.36782829119309596,13
+SynTrav,with mode + distance reasoning,DailyLoc,0.035365111686353166,13
+SynTrav,with mode + distance reasoning,SD,0.17649512868715223,27
+SynTrav,with mode + distance reasoning,SI,0.028753751112358367,27
+SynTrav,with mode + distance reasoning,DARD,0.3606401378548885,27
+SynTrav,with mode + distance reasoning,DailyLoc,0.038453079867209056,27
+SynTrav,with mode + distance reasoning,SD,0.16577303599319804,42
+SynTrav,with mode + distance reasoning,SI,0.03414883291786358,42
+SynTrav,with mode + distance reasoning,DARD,0.38819310632783316,42
+SynTrav,with mode + distance reasoning,DailyLoc,0.03881129978624337,42

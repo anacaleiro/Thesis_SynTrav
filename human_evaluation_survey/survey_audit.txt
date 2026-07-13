@@ -1,0 +1,100 @@
+=== SYNTHETIC PURPOSE CLEANING ===
+
+  BEFORE: 'Shopping/grocery shopping is not the correct purpose, the trip is to pick up chi'
+  AFTER:  'Pick up/drop off people'
+
+  BEFORE: 'Shopping/grocery shopping is not the purpose of this trip, instead, it is more r'
+  AFTER:  'Pick up/drop off people'
+
+  BEFORE: 'Shopping/grocery shopping is not the purpose of this trip, the correct purpose i'
+  AFTER:  'Different motive'
+
+  BEFORE: 'Pick up/drop off people, Shopping/grocery shopping'
+  AFTER:  'Different motive'
+
+  BEFORE: 'Pick up/drop off people, Shopping/grocery shopping'
+  AFTER:  'Different motive'
+
+  BEFORE: 'Shopping/grocery shopping is not the most likely as they just came from the supe'
+  AFTER:  'Different motive'
+
+  BEFORE: 'Shopping/grocery shopping is not applicable, the correct purpose is: Other leisu'
+  AFTER:  'Different motive'
+
+  BEFORE: 'Shopping/grocery shopping is not applicable, the correct purpose is: Other leisu'
+  AFTER:  'Different motive'
+
+  BEFORE: 'Taking education/course is not applicable, however, given the context of part-ti'
+  AFTER:  'Different motive'
+
+  BEFORE: 'Taking education/course is not applicable, however, given the context of part-ti'
+  AFTER:  'Different motive'
+
+  BEFORE: 'Other'
+  AFTER:  'Different motive'
+
+  BEFORE: 'Other'
+  AFTER:  'Different motive'
+
+  BEFORE: 'Pick up/drop off people, Shopping/grocery shopping'
+  AFTER:  'Different motive'
+
+  BEFORE: 'Pick up/drop off people, Shopping/grocery shopping'
+  AFTER:  'Different motive'
+
+  BEFORE: 'To and from work is not applicable here, so the most fitting purpose is not expl'
+  AFTER:  'Different motive'
+
+  BEFORE: 'Pick up/drop off people, Sports/hobbies'
+  AFTER:  'Different motive'
+
+  BEFORE: 'Pick up/drop off people, Shopping/grocery shopping'
+  AFTER:  'Different motive'
+
+  BEFORE: 'To and from work, Shopping/grocery shopping'
+  AFTER:  'Different motive'
+
+  BEFORE: 'Pick up/drop off people, Shopping/grocery shopping'
+  AFTER:  'Different motive'
+
+  BEFORE: 'Pick up/drop off people, Shopping/grocery shopping'
+  AFTER:  'Different motive'
+
+  BEFORE: 'Other'
+  AFTER:  'Different motive'
+
+
+=== FINAL MODE VOCABULARY IN SYNTHETIC SAMPLE ===
+  Bicycle
+  Car
+  E-bike
+  Metro
+  Walking
+
+=== FINAL PURPOSE VOCABULARY IN SYNTHETIC SAMPLE ===
+  Other leisure activities
+  Pick up/drop off people
+  Shopping/grocery shopping
+  Sports/hobbies
+  Taking education/course
+  To and from work
+  Visitors/staying over
+
+=== FINAL MODE VOCABULARY IN REAL SAMPLE ===
+  Bicycle
+  Bus
+  Car
+  E-bike
+  Walking
+
+=== FINAL PURPOSE VOCABULARY IN REAL SAMPLE ===
+  Collect/deliver goods
+  Different motive
+  Other leisure activities
+  Professionally
+  Services/personal care
+  Shopping/grocery shopping
+  Sports/hobbies
+  Taking education/course
+  To and from work
+  Touring/hiking

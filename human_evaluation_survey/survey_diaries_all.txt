@@ -1,0 +1,196 @@
+================================================================
+DIARY D001
+================================================================
+Person profile: Homemaker, age 51-66, weekday, income: low income
+
+Time     Mode                   Purpose                              Distance
+-----------------------------------------------------------------------------
+08:30    Walking                Shopping/grocery shopping              1.8 km
+11:30    Bicycle                Visitors/staying over                  6.2 km
+14:00    Bicycle                Visitors/staying over                  6.2 km
+
+================================================================
+DIARY D002
+================================================================
+Person profile: Employed, age 18-25, weekday, income: above median
+
+Time     Mode                   Purpose                              Distance
+-----------------------------------------------------------------------------
+10:10    Bus                    Taking education/course               16.7 km
+11:50    Bicycle                Taking education/course                1.1 km
+13:15    Bicycle                Shopping/grocery shopping              1.0 km
+13:45    Bicycle                Shopping/grocery shopping              2.0 km
+15:00    Bus                    Taking education/course               16.7 km
+17:35    E-bike                 Different motive                       8.0 km
+19:15    E-bike                 Different motive                       5.5 km
+
+================================================================
+DIARY D003
+================================================================
+Person profile: Retired, age 65+, weekday, income: below median
+
+Time     Mode                   Purpose                              Distance
+-----------------------------------------------------------------------------
+09:30    E-bike                 Touring/hiking                        32.0 km
+09:30    Walking                Touring/hiking                         5.0 km
+10:00    Walking                Touring/hiking                         2.0 km
+10:30    Car                    Shopping/grocery shopping              2.0 km
+11:00    Car                    Shopping/grocery shopping              3.0 km
+12:42    E-bike                 Collect/deliver goods                  1.0 km
+12:52    E-bike                 Collect/deliver goods                  1.0 km
+16:00    Walking                Touring/hiking                         1.0 km
+
+================================================================
+DIARY D004
+================================================================
+Person profile: Employed, age 41-45, weekday, income: below median
+
+Time     Mode                   Purpose                              Distance
+-----------------------------------------------------------------------------
+08:00    Car                    To and from work                       4.3 km
+15:15    Car                    Pick up/drop off people               62.5 km
+15:45    Walking                Shopping/grocery shopping              3.1 km
+16:30    Walking                Shopping/grocery shopping              3.1 km
+
+================================================================
+DIARY D005
+================================================================
+Person profile: Employed, age 51-66, weekday, income: below median
+
+Time     Mode                   Purpose                              Distance
+-----------------------------------------------------------------------------
+08:45    Bicycle                Professionally                         0.5 km
+13:10    Bicycle                Professionally                         0.6 km
+14:00    Bicycle                Shopping/grocery shopping              0.5 km
+14:30    Bicycle                Shopping/grocery shopping              0.5 km
+15:00    Bicycle                Shopping/grocery shopping              0.6 km
+15:15    Bicycle                Shopping/grocery shopping              0.6 km
+
+================================================================
+DIARY D006
+================================================================
+Person profile: Employed, age 51-66, weekday, income: above median
+
+Time     Mode                   Purpose                              Distance
+-----------------------------------------------------------------------------
+09:00    Walking                Touring/hiking                         3.0 km
+10:00    Walking                Shopping/grocery shopping              1.0 km
+10:45    Walking                Shopping/grocery shopping              1.0 km
+11:45    Car                    Shopping/grocery shopping              1.6 km
+12:45    Car                    Shopping/grocery shopping              1.6 km
+13:30    Car                    Shopping/grocery shopping              7.5 km
+15:25    Car                    Shopping/grocery shopping              7.5 km
+
+================================================================
+DIARY D007
+================================================================
+Person profile: Inactive, age 26-30, weekday
+
+Time     Mode                   Purpose                              Distance
+-----------------------------------------------------------------------------
+08:00    Walking                To and from work                       1.8 km
+16:00    E-bike                 Sports/hobbies                         3.1 km
+18:00    E-bike                 Sports/hobbies                         3.1 km
+
+================================================================
+DIARY D008
+================================================================
+Person profile: Employed, age 46-50, weekday, income: high income
+
+Time     Mode                   Purpose                              Distance
+-----------------------------------------------------------------------------
+08:00    Bicycle                To and from work                       1.8 km
+16:30    Metro                  Pick up/drop off people                0.8 km
+17:15    Car                    Shopping/grocery shopping             87.5 km
+18:00    Car                    Shopping/grocery shopping             87.5 km
+
+================================================================
+DIARY D009
+================================================================
+Person profile: Employed, age 65+, weekday, income: below median
+
+Time     Mode                   Purpose                              Distance
+-----------------------------------------------------------------------------
+08:00    Car                    To and from work                      25.0 km
+17:30    Car                    To and from work                      25.0 km
+
+================================================================
+DIARY D010
+================================================================
+Person profile: Student, age <18, weekday, income: low income
+
+Time     Mode                   Purpose                              Distance
+-----------------------------------------------------------------------------
+08:00    Bicycle                Taking education/course                8.8 km
+09:00    Bicycle                Taking education/course                8.8 km
+
+================================================================
+DIARY D011
+================================================================
+Person profile: Inactive, age 51-66, weekday, income: below median
+
+Time     Mode                   Purpose                              Distance
+-----------------------------------------------------------------------------
+08:30    Walking                Shopping/grocery shopping              1.8 km
+11:30    Car                    Other leisure activities               8.8 km
+14:00    Walking                Other leisure activities               3.1 km
+15:00    Walking                Other leisure activities               3.1 km
+
+================================================================
+DIARY D012
+================================================================
+Person profile: Employed, age 41-45, weekday, income: low income
+
+Time     Mode                   Purpose                              Distance
+-----------------------------------------------------------------------------
+07:30    Car                    To and from work                      17.5 km
+17:00    Bicycle                Shopping/grocery shopping              1.8 km
+18:30    Bicycle                Pick up/drop off people                1.8 km
+19:30    Bicycle                Pick up/drop off people                1.8 km
+
+================================================================
+DIARY D013
+================================================================
+Person profile: Employed, age 51-66, weekday, income: high income
+
+Time     Mode                   Purpose                              Distance
+-----------------------------------------------------------------------------
+19:30    Car                    Sports/hobbies                        34.0 km
+23:00    Car                    Sports/hobbies                        34.0 km
+
+================================================================
+DIARY D014
+================================================================
+Person profile: Employed, age 46-50, weekday, income: above median
+
+Time     Mode                   Purpose                              Distance
+-----------------------------------------------------------------------------
+07:30    Car                    To and from work                      60.0 km
+17:30    Car                    To and from work                      60.0 km
+
+================================================================
+DIARY D015
+================================================================
+Person profile: Employed, age 41-45, weekday, income: high income
+
+Time     Mode                   Purpose                              Distance
+-----------------------------------------------------------------------------
+08:15    Bicycle                To and from work                       2.4 km
+16:30    Bicycle                To and from work                       2.4 km
+
+================================================================
+DIARY D016
+================================================================
+Person profile: Retired, age 65+, weekday, income: below median
+
+Time     Mode                   Purpose                              Distance
+-----------------------------------------------------------------------------
+06:30    Car                    To and from work                      25.0 km
+12:00    Walking                Touring/hiking                         4.0 km
+13:00    Bus                    Other leisure activities               5.0 km
+13:45    Bicycle                Services/personal care                 1.5 km
+14:15    Bus                    Other leisure activities               5.0 km
+16:45    Car                    To and from work                      25.0 km
+17:00    Bicycle                Services/personal care                 1.5 km
+18:30    Walking                Touring/hiking                         2.0 km
+
